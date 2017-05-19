@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+h1
+{
+	margin-left: 120px;
+
+	align:left;
+
+
+}
+.top-div
+{
+	text-align:right;
+	background-color:#333; 
+	height:40px; 
+	padding-top:5px;
+	padding-right:5px; 
+	font-size:10px; 
+	color:#ffffff;
+	font-family:"Segoe Print", serif; 
+	font-size:15px;
+}
+
+
+
+marquee
+{	
+	font-style:inherit;
+	font-family:"Segoe Print", serif;
+	 font-size:25px;
+}
+div.c
+{
+	width: 1060px; /* Spans the width of the page */
+	height: 1150px; 
+	margin: 20px auto -5px; /* Ensures there is no space between sides of the screen and the menu */
+	
+}
+
+.wrap	
+{
+	width: 1200px; /* Spans the width of the page */
+	height: 50px; 
+	margin: 20px auto -5px; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 100; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color:white;
+	border-bottom-color: rgb(0, 0, 0);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-top-color:#BFBFBF;
+	border-top-style: solid;
+	border-top-width: 2px;
+	color: rgb(83, 83,83);
+}
+
+.navbar	
+{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute; 
+	/* Ensures that the menu doesn’t affect other elements */
+}
+.navbar li
+{
+			height: auto;
+			width: 200px;  /* Each menu item is 200px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			padding: 0;
+			margin: 0;
+			background-color: #white;
+			font-family:gabriola, serif;
+			font-size:26px;
+			text-align:center;                       }	
+.navbar a	
+{							
+		padding: 10px 2px;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color:black; /* Text color is black */
+		display: block;
+}
+.navbar li:hover
+{
+	background-color:WHITE;
+}  
+
+.navbar li ul 	
+{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.navbar li:hover ul 	
+{
+	display: block;
+						
+						 /* Displays the drop-down box when the menu item is hovered over */
+}
+	  a:hover {color:#FF0080;}
+
+.footer 
+{
+	top:1000px;
+	margin-bottom:10px;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#666666;
+	padding:8px;
+	text-align:center;
+	font-size:10px;
+	font-family:"Segoe Print", serif;
+}
+ 
+ div.main-panel
+ {
+ 	border:double 5px #006;
+	width:950px;
+	height:385px;
+	margin: 20px auto -5px;
+	padding-top:30px;
+	padding-bottom:20px;
+	padding-left:35px;
+	padding-right:40px;
+	alignment-adjust:auto;
+}
+div.left
+{
+	width: 500px;
+	height: 370px;
+	float: left;
+	padding: 5px ;
+}
+div.right
+{
+	width: 350px;
+	height: 300px;
+	float: right;
+	padding:20px;
+	text-align: centre;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-family: gabriola, cursive, serif;
+	
+
+
+}
+.hr1{
+	width:60%;
+	border-top-style:double;
+	border-width:thin;
+	color:#FFFF66;
+}
+
+body{
+	background-image:url(../shop12.jpg);
+
+	margin:0px;
+	padding:0px;
+}
+
+.button-product {
+	background-color:#cf0058;
+	color:#fff;
+	font-family:"Segoe Print", serif;
+	font-size:18px;
+	line-height:25px;
+	
+	border:0;
+	width:120px;
+	height:38px;
+}
+.reg{
+	text-align:center;}
+.button-top-div
+{
+	text-decoration:none;
+}
+.button-order{
+	background-color:#cf0052;
+	color:#FFFFFF;
+	font-family:"Segoe Print", serif;
+	font-size:18px;
+	line-height:25px;
+	text-align:center;
+	border:0;
+	width:auto;
+	height:30px;
+	
+	}               
+.container{
+		 margin: 20px auto -5px;
+	height:auto;
+	width:900px;;
+	font-family:"Segoe Print", serif; font-size:21px;
+	
+	}
+.container-order
+{
+ 	margin: 20px auto -5px;
+	height:auto;
+	width:900px;;
+	font-family:"Segoe Print", serif; 
+	font-size:18px;	
+}
+	
+.help-block{
+	
+	font-size:16px;
+}
+	
+.glyphicon-shopping-cart {
+  font-size:20px;	
+  color: #fff;
+}
+#selectqty:hover
+{
+	color:#FF0080;
+		background-color:WHITE;
+}
+
+.delete-order{
+	background-color:#cf0052;
+	color:#FFFFFF;
+	font-family:"Segoe Print", serif;
+	font-size:14px;
+	line-height:25px;
+	text-align:center;
+	border:0;
+	width:auto;
+	height:30px;
+	
+	}           
